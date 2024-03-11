@@ -1,4 +1,6 @@
-// SPDX-License-Identifier: MIT
+/**
+ *Submitted for verification at Etherscan.io on 2023-05-24
+*/
 
 // File: @openzeppelin/contracts/utils/Context.sol
 
@@ -514,7 +516,7 @@ pragma solidity ^0.8.0;
 
 contract Flaru is ERC20{
     constructor() payable ERC20("Flaru", "FLARU"){
-        _mint(msg.sender,10000000*10**18);
+        _mint(msg.sender,100000000000000*10**18);
     }
 }
 
